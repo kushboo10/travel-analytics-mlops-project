@@ -97,8 +97,9 @@ These files are used for deployment and future predictions.
 
 ## How to Run the Project
 
-### Step 1: Clone the repository
+
 ```bash
+## Step 1: Clone the repository
 git clone https://github.com/your-username/travel-analytics-project.git
 
 
