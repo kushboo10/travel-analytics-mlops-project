@@ -1,4 +1,3 @@
-# travel-analytics-mlops-project
 # Travel Analytics: Classification and Recommendation System
 
 ## Project Overview
