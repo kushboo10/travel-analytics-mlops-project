@@ -116,3 +116,84 @@ Run using:
 
 ```bash
 streamlit run app.py
+
+Flask API
+REST API endpoints:
+/predict_gender
+/predict_price
+
+Run using:
+
+python api.py
+MLOps Integration
+MLflow
+Used for experiment tracking
+Logs parameters and metrics
+Docker
+Containerization of ML application
+Ensures portability and reproducibility
+Apache Airflow
+Workflow automation using DAGs
+Jenkins (Conceptual)
+CI/CD pipeline for:
+Code integration
+Model training
+Deployment
+Model Saving
+
+Models are saved using:
+
+joblib (.pkl)
+pickle
+
+Used for:
+
+Deployment
+Reuse
+Prediction on unseen data
+How to Run the Project
+Step 1: Clone Repository
+git clone https://github.com/your-username/travel-analytics-project.git
+cd travel-analytics-project
+Step 2: Install Dependencies
+pip install -r requirements.txt
+Step 3: Run Notebook
+
+Open Jupyter Notebook or Google Colab and execute:
+
+Data preprocessing
+Model training
+Evaluation
+Step 4: Run Streamlit App
+streamlit run app.py
+Step 5: Run Flask API
+python api.py
+Requirements
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+streamlit
+flask
+joblib
+mlflow
+Business Impact
+Enables personalized travel recommendations
+Improves customer targeting and marketing efficiency
+Enhances user engagement
+Supports data-driven business decisions
+Increases potential revenue through better recommendations
+Future Improvements
+Advanced recommendation system (collaborative filtering)
+Deployment using Kubernetes
+Real-time data pipeline integration
+CI/CD pipeline using Jenkins
+Improved feature engineering
+
+
+Conclusion
+
+This project demonstrates a complete end-to-end machine learning system combined with MLOps practices. It includes classification, regression, and recommendation models, along with deployment and workflow automation concepts.
+
+The system provides meaningful insights and scalable solutions that can enhance user experience and business performance in the travel industry.
