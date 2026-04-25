@@ -168,7 +168,11 @@ Step 4: Run Streamlit App
 streamlit run app.py
 Step 5: Run Flask API
 python api.py
-Requirements
+
+```
+
+### Requirements
+
 pandas
 numpy
 matplotlib
@@ -178,13 +182,15 @@ streamlit
 flask
 joblib
 mlflow
-Business Impact
+
+### Business Impact
 Enables personalized travel recommendations
 Improves customer targeting and marketing efficiency
 Enhances user engagement
 Supports data-driven business decisions
 Increases potential revenue through better recommendations
-Future Improvements
+
+### Future Improvements
 Advanced recommendation system (collaborative filtering)
 Deployment using Kubernetes
 Real-time data pipeline integration
@@ -192,7 +198,7 @@ CI/CD pipeline using Jenkins
 Improved feature engineering
 
 
-Conclusion
+### Conclusion
 
 This project demonstrates a complete end-to-end machine learning system combined with MLOps practices. It includes classification, regression, and recommendation models, along with deployment and workflow automation concepts.
 
